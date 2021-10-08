@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "ef9e4dfb-c6af-4f24-a0a8-47a33939e905",
+		"name": "Exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/team",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Team with pattern",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chooseteam/334",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chooseteam",
+						"334"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/players",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Substitute",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/substitute/1/df",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"substitute",
+						"1",
+						"df"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Available players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teamgroup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teamgroup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get current team",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/team",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Finish",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/finish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"finish"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
